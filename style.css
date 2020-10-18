@@ -1,0 +1,238 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol, ul {
+    list-style: none
+}
+
+blockquote, q {
+    quotes: none
+}
+
+blockquote:after, blockquote:before, q:after, q:before {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+body, button, input, option, select, textarea {
+    font-family: "Montserrat", sans-serif
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    background: #242424
+}
+
+#portal {
+    height: 100vh;
+    width: 100%;
+    padding: 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative
+}
+
+#portal .btn {
+    width: 50%;
+    height: 50%;
+    display: inline-block;
+    font-size: 0px;
+    position: relative;
+    color: #474747;
+    border-radius: 5px;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.1)
+}
+
+#portal .btn:hover {
+    color: white;
+    text-shadow: 0 9px 12px rgba(0, 0, 0, 0.15)
+}
+
+#portal .btn.btn--server1:hover {
+    background-color: #5d7998
+}
+
+#portal .btn.btn--server2:hover {
+    background-color: #416997
+}
+
+#portal .btn.btn--server3:hover {
+    background-color: #245c9c
+}
+
+#portal .btn.btn--server4:hover {
+    background-color: #00499c
+}
+
+#portal .btn-pseudoLink {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+#portal .btn-text {
+    display: inline-block;
+    font-size: 78px;
+    height: 78px;
+    line-height: 78px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0
+}
+
+#portal .btn-text b {
+    font-size: 1.4em
+}
+
+#portal .btn-text small {
+    font-size: 17px;
+    letter-spacing: 2px;
+    display: block;
+    margin-top: -20px
+}
+
+#portal .logo {
+    background: url(../my-GameServers/images/logo.png) no-repeat center/100% auto;
+    width: 557px;
+    height: 159px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+@media (max-width:1200px) {
+    #portal .logo {
+        width: 300px;
+        height: 91px
+    }
+    #portal .btn-text {
+        font-size: 56px
+    }
+}
+
+@media (max-width:1200px) {
+    #portal {
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 30px
+    }
+    #portal .btn {
+        width: 100%;
+        max-width: 500px;
+        display: block;
+        margin: 0 auto;
+        height: 103px
+    }
+    #portal .btn .btn-text {
+        line-height: 52px;
+        font-size: 30px
+    }
+    #portal .btn .btn-text small {
+        margin-top: -20px;
+        font-size: 13px
+    }
+    #portal .btn:first-child {
+        margin-top: 91px
+    }
+    #portal .btn.btn--vanilla b {
+        margin-right: -5px!important
+    }
+    #portal .logo {
+        max-width: calc(100% - 20px);
+        position: relative;
+        top: 0;
+        bottom: 0;
+        margin-bottom: 30px
+    }
+}
+
+body {
+    background: #242424
+}
+
+body:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(images/background2.jpg) repeat center;
+    opacity: .025;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+#portal .logo:after {
+    display: block;
+    font-size: 20px;
+    letter-spacing: 5px;
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    user-select: none;
+    pointer-events: none;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 1200px) {
+    #portal .logo:after {
+        font-size: 12px;
+        bottom: 0;
+    }
+}

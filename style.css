@@ -61,7 +61,7 @@ body {
     display: inline-block;
     font-size: 0px;
     position: relative;
-    color: #474747;
+    color: white;
     border-radius: 15px;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
@@ -70,24 +70,24 @@ body {
 }
 
 #links .btn:hover {
-    color: white;
+    color: #101010;
     text-shadow: 0 9px 12px rgba(0, 0, 0, 0.15)
 }
 
 #links .btn.btn--server1:hover {
-    background-color: #5d7998
+    background-color: rgb(139, 0, 0)
 }
 
 #links .btn.btn--server2:hover {
-    background-color: #416997
+    background-color: rgb(0, 0, 151)
 }
 
 #links .btn.btn--server3:hover {
-    background-color: #245c9c
+    background-color: rgb(0, 122, 0)
 }
 
 #links .btn.btn--server4:hover {
-    background-color: #00499c
+    background-color: rgb(39, 39, 39)
 }
 
 #links .btn-pseudoLink {

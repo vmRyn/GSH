@@ -34,7 +34,7 @@ table {
 }
 
 body, button, input, option, select, textarea {
-    font-family: "Montserrat", sans-serif
+    font-family: Poppins;
 }
 
 body {
@@ -46,7 +46,7 @@ body {
     background: #242424
 }
 
-#portal {
+#links {
     height: 100vh;
     width: 100%;
     padding: 15px;
@@ -55,42 +55,42 @@ body {
     position: relative
 }
 
-#portal .btn {
+#links .btn {
     width: 50%;
     height: 50%;
     display: inline-block;
     font-size: 0px;
     position: relative;
     color: #474747;
-    border-radius: 5px;
-    -webkit-transition: 0.4s;
-    -o-transition: 0.4s;
-    transition: 0.4s;
+    border-radius: 15px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
     text-shadow: 0 3px 6px rgba(0, 0, 0, 0.1)
 }
 
-#portal .btn:hover {
+#links .btn:hover {
     color: white;
     text-shadow: 0 9px 12px rgba(0, 0, 0, 0.15)
 }
 
-#portal .btn.btn--server1:hover {
+#links .btn.btn--server1:hover {
     background-color: #5d7998
 }
 
-#portal .btn.btn--server2:hover {
+#links .btn.btn--server2:hover {
     background-color: #416997
 }
 
-#portal .btn.btn--server3:hover {
+#links .btn.btn--server3:hover {
     background-color: #245c9c
 }
 
-#portal .btn.btn--server4:hover {
+#links .btn.btn--server4:hover {
     background-color: #00499c
 }
 
-#portal .btn-pseudoLink {
+#links .btn-pseudoLink {
     display: block;
     position: absolute;
     left: 0;
@@ -98,11 +98,11 @@ body {
     height: 100%;
     width: 100%;
     z-index: 1;
-    border-radius: 5px;
+    border-radius: 15px;
     cursor: pointer
 }
 
-#portal .btn-text {
+#links .btn-text {
     display: inline-block;
     font-size: 78px;
     height: 78px;
@@ -118,18 +118,18 @@ body {
     right: 0
 }
 
-#portal .btn-text b {
-    font-size: 1.4em
+#links .btn-text b {
+    font-size: 90px
 }
 
-#portal .btn-text small {
+#links .btn-text small {
     font-size: 17px;
     letter-spacing: 2px;
     display: block;
     margin-top: -20px
 }
 
-#portal .logo {
+#links .logo {
     background: url(../my-GameServers/images/logo.png) no-repeat center/100% auto;
     width: 557px;
     height: 159px;
@@ -148,43 +148,43 @@ body {
 }
 
 @media (max-width:1200px) {
-    #portal .logo {
+    #links .logo {
         width: 300px;
         height: 91px
     }
-    #portal .btn-text {
+    #links .btn-text {
         font-size: 56px
     }
 }
 
 @media (max-width:1200px) {
-    #portal {
+    #links {
         height: auto;
         padding-top: 50px;
         padding-bottom: 30px
     }
-    #portal .btn {
+    #links .btn {
         width: 100%;
         max-width: 500px;
         display: block;
         margin: 0 auto;
         height: 103px
     }
-    #portal .btn .btn-text {
+    #links .btn .btn-text {
         line-height: 52px;
         font-size: 30px
     }
-    #portal .btn .btn-text small {
+    #links .btn .btn-text small {
         margin-top: -20px;
         font-size: 13px
     }
-    #portal .btn:first-child {
+    #links .btn:first-child {
         margin-top: 91px
     }
-    #portal .btn.btn--vanilla b {
+    #links .btn.btn--vanilla b {
         margin-right: -5px!important
     }
-    #portal .logo {
+    #links .logo {
         max-width: calc(100% - 20px);
         position: relative;
         top: 0;
@@ -215,7 +215,7 @@ body:before {
     user-select: none
 }
 
-#portal .logo:after {
+#links .logo:after {
     display: block;
     font-size: 20px;
     letter-spacing: 5px;
@@ -231,7 +231,7 @@ body:before {
 }
 
 @media (max-width: 1200px) {
-    #portal .logo:after {
+    #links .logo:after {
         font-size: 12px;
         bottom: 0;
     }

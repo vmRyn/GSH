@@ -1,2 +1,2 @@
 # my-GameServers
-[DEMO](https://quirky-rosalind-a1e6ab.netlify.app)
+[DEMO](https://sad-fermat-e296a5.netlify.app)

@@ -17,9 +17,9 @@ var config = {
     },
 
     "urls": {
-        "Server1Link": "www.teamspeak.com",
-        "Server2Link": "www.teamspeak.com",
-        "Server3Link": "www.teamspeak.com",
-        "Server4Link": "www.teamspeak.com"
+        "Server1Link": "WWW.BYRYN.XYZ",
+        "Server2Link": "WWW.BYRYN.XYZ",
+        "Server3Link": "WWW.BYRYN.XYZ",
+        "Server4Link": "WWW.BYRYN.XYZ"
     }
 }

@@ -101,7 +101,7 @@ section {
     display: block
 }
 
-#myLogo {
+#CommunityLogo {
     position: absolute;
     top: 25%;
     left: 58.3%;
@@ -258,7 +258,7 @@ textarea {
     right: 0
 }
 
-#myIcons {
+#Server1Picture #Server2Picture #Server3Picture #Server4Picture {
     max-width: 75%;
     width: 10%;
     height: auto;

@@ -20,5 +20,3 @@ document.getElementById("Server1Link").href = config.urls.Server1Link;
 document.getElementById("Server2Link").href = config.urls.Server2Link;
 document.getElementById("Server3Link").href = config.urls.Server3Link;
 document.getElementById("Server4Link").href = config.urls.Server4Link;
-
-//Important Code

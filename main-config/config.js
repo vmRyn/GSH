@@ -13,7 +13,7 @@ var config = {
     },
 
     "pictures": {
-        "WebsiteIcon": "../my-GameServers/images/Logo.png",
+        "WebsiteIcon": "../my-GameServers/images/RynTrans.png",
         "CommunityLogo": "../my-GameServers/images/Forums.png",
         "Server1Picture": "../my-GameServers/images/Teamspeak.png",
         "Server2Picture": "../my-GameServers/images/Discord.png",

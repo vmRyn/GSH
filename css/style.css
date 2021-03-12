@@ -123,7 +123,7 @@ section {
 }
 
 body {
-    background-image: url(../images/Background.jpg);
+    background-image: var(--BackgroundImage);
     line-height: 1;
     min-height: 100vh;
     width: 100%;
@@ -178,7 +178,7 @@ input,
 option,
 select,
 textarea {
-    font-family: Poppins;
+    font-family: var(--FontFamily);
 }
 
 #links {
@@ -191,7 +191,7 @@ textarea {
 }
 
 #links .btn {
-    top: 35%;
+    top: 57.5%;
     margin-top: -250px;
     max-width: 75%;
     width: 10%;
@@ -201,33 +201,33 @@ textarea {
     display: inline-block;
     font-size: 0px;
     position: relative;
-    color: white;
+    color: var( --ServerTextColour);
     border-radius: 15px;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
-    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.1)
+    text-shadow: 0 3px 6px var(--TextShawdowColour);
 }
 
 #links .btn:hover {
-    color: #101010;
-    text-shadow: 0 9px 12px rgba(0, 0, 0, 0.15)
+    color: var(--ServerHoverTextColour);
+    text-shadow: 0 9px 12px var(--TextShawdowColour);
 }
 
 #links .btn.btn--server1:hover {
-    background-color: rgb(41, 110, 165)
+    background-color: var(--Server1HoverColour);
 }
 
 #links .btn.btn--server2:hover {
-    background-color: rgb(140, 158, 255)
+    background-color: var(--Server2HoverColour);
 }
 
 #links .btn.btn--server3:hover {
-    background-color: rgb(243, 226, 0)
+    background-color: var(--Server3HoverColour);
 }
 
 #links .btn.btn--server4:hover {
-    background-color: rgb(235, 139, 3)
+    background-color: var(--Server4HoverColour);
 }
 
 #links .btn-pseudoLink {
@@ -350,7 +350,7 @@ textarea {
     text-align: center;
     user-select: none;
     pointer-events: none;
-    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-shadow: 0 2px 5px var(--TextShawdowColour);
 }
 
 @media (max-width: 1200px) {

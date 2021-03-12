@@ -1,3 +1,8 @@
+/* Main Config Text/Picture */
+
+
+/* Message Ryn#2512 on Discord For Help */
+
 var config = {
     "text": {
         "WebsiteTitle": "Coded By Ryn",
@@ -17,9 +22,9 @@ var config = {
     },
 
     "urls": {
-        "Server1Link": "WWW.BYRYN.XYZ",
-        "Server2Link": "WWW.BYRYN.XYZ",
-        "Server3Link": "WWW.BYRYN.XYZ",
-        "Server4Link": "WWW.BYRYN.XYZ"
+        "Server1Link": "https://facebook.com",
+        "Server2Link": "https://facebook.com",
+        "Server3Link": "https://facebook.com",
+        "Server4Link": "https://facebook.com"
     }
 }

@@ -16,7 +16,7 @@ document.getElementById("Server3Picture").src = config.pictures.Server3Picture;
 document.getElementById("Server4Picture").src = config.pictures.Server4Picture;
 
 //Links
-document.getElementById("Server1Link").href = "https://facebook.com"
+document.getElementById("Server1Link").href = config.urls.Server1Link;
 document.getElementById("Server2Link").href = config.urls.Server2Link;
 document.getElementById("Server3Link").href = config.urls.Server3Link;
 document.getElementById("Server4Link").href = config.urls.Server4Link;

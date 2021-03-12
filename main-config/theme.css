@@ -1,0 +1,16 @@
+/* Main Theme Colouring */
+
+
+/* Message Ryn#2512 on Discord For Help */
+
+:root {
+    --Server1HoverColour: rgb(41, 110, 165);
+    --Server2HoverColour: rgb(140, 158, 255);
+    --Server3HoverColour: rgb(243, 226, 0);
+    --Server4HoverColour: rgb(235, 139, 3);
+    --ServerTextColour: #fff;
+    --ServerHoverTextColour: #101010;
+    --TextShawdowColour: rgba(0, 0, 0, 0.3);
+    --FontFamily: Poppins;
+    --BackgroundImage: url(../images/Background.jpg);
+}

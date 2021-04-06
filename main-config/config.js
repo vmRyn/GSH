@@ -18,7 +18,7 @@ var config = {
         "Server1Picture": "images/Teamspeak.png",
         "Server2Picture": "images/Discord.png",
         "Server3Picture": "images/Forum.png",
-        "Server4Picture": "images/Forms.png"
+        "Server4Picture": "images/Apply.png"
     },
 
     "urls": {

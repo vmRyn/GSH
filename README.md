@@ -1,6 +1,6 @@
 # GSLH - Game Server Landing Hub
 Main Hub for Community Servers.
-Also Kwown as a Landing/Welcome Screen.
+Also Known as a Landing/Welcome Screen.
 
 * Free to Use
 * Keep Credits in Code.
